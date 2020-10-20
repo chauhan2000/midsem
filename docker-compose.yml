@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+   webapp:
+     image: anubhavaaun/myphpimage
+     ports:
+       - "8008:80"
+     restart: always
+
