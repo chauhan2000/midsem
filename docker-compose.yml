@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
    webapp:
-     image: anubhavaaun/myphpimage
+     image: rachitchauhan/project
      ports:
        - "8008:80"
      restart: always
